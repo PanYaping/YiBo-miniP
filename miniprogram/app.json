@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/base/base",
+    "pages/cloud/cloud"
+  ],
+  "window": {
+    "backgroundColor": "#207f4c",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#207f4c",
+    "navigationBarTitleText": "耶啵小可爱",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/base/base",
+      "text": "耶",
+      "iconPath": "images/Yi-down.png",
+      "selectedIconPath": "images/Yi-active.png"
+    }, {
+      "pagePath": "pages/cloud/cloud",
+      "text": "啵",
+      "iconPath": "images/Bo-down.png",
+      "selectedIconPath": "images/Bo-active.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

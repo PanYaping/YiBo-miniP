@@ -1,0 +1,9 @@
+<button bindtap="insertDate">新增数据</button>
+<button bindtap="sum">测试sum</button>
+<button bindtap="getOpenId">获取OpenId</button>
+<button bindtap="batchdelete">批量删除</button>
+<button bindtap="uploadImage">上传图片</button>
+<button bindtap="getFileImage">展示图片</button>
+<view wx:for="{{imageArray}}" wx:key="{{item.key}}">
+  <image src="{{item.fileId}}"></image>
+</view>

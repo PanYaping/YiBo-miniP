@@ -1,0 +1,4 @@
+<view class="Avator"><image src="https://tvax1.sinaimg.cn/crop.0.0.512.512.180/005ZHJnily8g70iv31fgqj30e80e8wf3.jpg?KID=imgbed,tva&Expires=1570789247&ssig=nMDm8v8PXS"></image></view>
+<view wx:for="{{imageArray}}" wx:key="{{item.key}}">
+  <image src="{{item.fileId}}"></image>
+</view>
