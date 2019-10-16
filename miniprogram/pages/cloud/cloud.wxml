@@ -1,9 +1,9 @@
-<button bindtap="insertDate">新增数据</button>
-<button bindtap="sum">测试sum</button>
-<button bindtap="getOpenId">获取OpenId</button>
-<button bindtap="batchdelete">批量删除</button>
-<button bindtap="uploadImage">上传图片</button>
-<button bindtap="getFileImage">展示图片</button>
+<van-button bindtap="insertDate">新增数据</van-button>
+<van-button bindtap="sum">测试sum</van-button>
+<van-button bindtap="getOpenId">获取OpenId</van-button>
+<van-button bindtap="batchdelete">批量删除</van-button>
+<van-button bindtap="uploadImage">上传图片</van-button>
+<van-button type="primary" size="large" bindtap="getFileImage">展示图片</van-button>
 <view wx:for="{{imageArray}}" wx:key="{{item.key}}">
   <image src="{{item.fileId}}"></image>
 </view>
