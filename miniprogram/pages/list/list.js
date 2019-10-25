@@ -54,7 +54,7 @@ Page({
    * Called when page reach bottom
    */
   onReachBottom: function () {
-
+    this.getList();
   },
 
   /**
@@ -65,6 +65,9 @@ Page({
   },
 
   getList: function () {
+    wx.showLoading({
+      title: '加载中...',
+    })
     wx.cloud.callFunction({
       name: 'getdata',
       data: {
@@ -74,11 +77,12 @@ Page({
     }).then(res => {
       console.log(res)
       this.setData({
-        listData: JSON.parse(res.result).subjects
+        listData: this.data.listData.concat(JSON.parse(res.result).subjects)
       })
+      wx.hideLoading();
       console.log(this.data.listData)
     }).catch(err => {
-
+      wx.hideLoading();
     })
   }
 })
