@@ -1,0 +1,9 @@
+<view class="container cardView">
+  <image src="{{filmContext.images.medium}}"></image>
+  <view class="movie-info">
+    <view class="movie-title">{{filmContext.title}}</view>
+    <view>评分：<text>{{filmContext.rating.average}}分</text></view>
+    <view>主演：<text wx:for="{{filmContext.casts}}" wx:key="{{index}}">{{item.name}} </text></view>
+    <view>年份：{{filmContext.year}}</view>
+  </view>
+</view>

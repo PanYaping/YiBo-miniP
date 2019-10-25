@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "最新电影",
+  "usingComponents": {
+   "film-card": "/components/film-card/film-card"
+  }
+}

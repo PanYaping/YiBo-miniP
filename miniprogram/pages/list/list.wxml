@@ -1,0 +1,3 @@
+<view class="container mainContent">
+  <film-card wx:for="{{listData}}" wx:key="{{index}}" class="maincard" filmContext="{{item}}"></film-card>
+</view>

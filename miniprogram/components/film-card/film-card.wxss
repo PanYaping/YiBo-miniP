@@ -1,0 +1,20 @@
+.cardView {
+  padding: 20rpx;
+  height: 260rpx;
+  display: flex;
+  font-size: 30rpx;
+}
+image {
+  width: 200rpx;
+  height: 100%;
+  margin-right: 20rpx;
+}
+.movie-info{
+  flex: 1;
+}
+.movie-title{
+  color: #ccc;
+  font-size: 40rpx;
+  font-weight: bolder;
+  margin-bottom: 10rpx;
+}

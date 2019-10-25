@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/base/base",
-    "pages/cloud/cloud"
+    "pages/cloud/cloud",
+    "pages/list/list"
   ],
   "window": {
     "backgroundColor": "#207f4c",
@@ -16,6 +17,12 @@
       "text": "耶",
       "iconPath": "images/Yi-down.png",
       "selectedIconPath": "images/Yi-active.png"
+    },
+    {
+      "pagePath": "pages/list/list",
+      "text": "电影",
+      "iconPath": "images/film-down.png",
+      "selectedIconPath": "images/film-active.png"
     }, {
       "pagePath": "pages/cloud/cloud",
       "text": "啵",
