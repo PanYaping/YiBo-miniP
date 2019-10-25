@@ -2,8 +2,9 @@
   <image src="{{filmContext.images.medium}}"></image>
   <view class="movie-info">
     <view class="movie-title">{{filmContext.title}}</view>
-    <view>评分：<text>{{filmContext.rating.average}}分</text></view>
-    <view>主演：<text wx:for="{{filmContext.casts}}" wx:key="{{index}}">{{item.name}} </text></view>
+    <view>评分：<text class="movie-score">{{filmContext.rating.average}}分</text></view>
+    <view class="movie-casts">主演：<text wx:for="{{filmContext.casts}}" wx:key="{{index}}">{{item.name}} </text></view>
     <view>年份：{{filmContext.year}}</view>
   </view>
+  <van-button class="movie-comments">点评</van-button>
 </view>

@@ -12,9 +12,30 @@ image {
 .movie-info{
   flex: 1;
 }
+.movie-info>view{
+  margin-bottom: 10rpx;
+}
 .movie-title{
   color: #ccc;
   font-size: 40rpx;
   font-weight: bolder;
-  margin-bottom: 10rpx;
+}
+.movie-casts{
+  display: inline-block;
+  text-overflow: ellipsis;
+  max-height: 80rpx;
+}
+.movie-score{
+  color: #faaf00;
+}
+.movie-comments{
+  margin-top: 150rpx;
+}
+.movie-comments>button{
+  height:70rpx;
+  line-height: 70rpx;
+  background: #207f4c;
+  color: white;
+  font-size: 25rpx;
+  border-radius: 15rpx;
 }
